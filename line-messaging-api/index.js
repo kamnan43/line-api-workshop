@@ -86,7 +86,15 @@ async function handleEvent(event) {
 }
 
 function handleText(message, replyToken) {
-  return replyText(replyToken, message.text);
+  if (message.text === 'hi') {
+    const msg = {
+      type: 'text',
+      text: 'hello'
+    };
+    return replyText(replyToken, msg);
+  } else {
+    return replyText(replyToken, message.text);
+  }
 }
 
 function handleImage(message, replyToken) {
