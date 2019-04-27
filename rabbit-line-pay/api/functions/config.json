@@ -1,0 +1,20 @@
+{
+  "line": {
+    "channelAccessToken": "",
+    "channelSecret": ""
+  },
+  "linepay": {
+    "api": "https://sandbox-api-pay.line.me",
+    "channelId": "",
+    "channelSecret": ""
+  },
+  "firebase": {
+    "apiKey": "",
+    "authDomain": "sitthi-linepay-demo.firebaseapp.com",
+    "databaseURL": "https://sitthi-linepay-demo.firebaseio.com",
+    "projectId": "sitthi-linepay-demo",
+    "storageBucket": "sitthi-linepay-demo.appspot.com",
+    "serviceAccountFile": "./firebase-admin-key.json"
+  },
+  "apiUrl": "https://us-central1-sitthi-linepay-demo.cloudfunctions.net"
+}
